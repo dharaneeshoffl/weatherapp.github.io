@@ -1,0 +1,62 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px;
+}
+
+
+section{
+    padding: 60px;
+    background-color: lightslategrey;
+    border-radius: 10px;
+    outline: none;
+    
+}
+
+#weather{
+    padding: 20px;
+}
+
+#weather-container{
+    
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+
+
+ input{
+    width: 300px;
+    padding-left: 10px;
+    height:50px;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+}
+button{
+   background-color:black;
+   border: none;
+   width: 150px;
+   height: 50px;
+   color: white;
+   border-radius: 10px
+   
+}
+#city-name{
+    color: black;
+} 
+
+
+p{
+    font-size: 20px;
+}
